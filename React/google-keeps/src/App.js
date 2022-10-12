@@ -25,9 +25,9 @@ function App() {
    
       }
 
-      const deleteIt=(e)=>{
+      const deleteIt=(evnt)=>{
         setData ( data.filter( (element,index)=>{
-          return ( e!=index);
+          return ( evnt!=index);
 
         }
           
